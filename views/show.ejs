@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">     
+    <title><%= title %></title>
+  </head>
+  <body>
+      <% photos.forEach(function(photo){ %>
+          <p> <img src=<%=photo.path%> alt=<%=photo.name%> /> </p>   
+      <% }) %>
+  </body>
+</html>
